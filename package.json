@@ -39,7 +39,7 @@
   "dependencies": {
     "@stdlib/constants-float64-pinf": "^0.0.x",
     "@stdlib/math-base-special-abs": "^0.0.x",
-    "@stdlib/math-base-special-max": "^0.0.x"
+    "@stdlib/math-base-special-maxn": "^0.0.x"
   },
   "devDependencies": {
     "@stdlib/bench": "^0.0.x",
