@@ -60,7 +60,7 @@ The [branches.md][branches-url] file summarizes the available branches and displ
 var maxabs = require( '@stdlib/math-base-special-maxabs' );
 ```
 
-#### maxabs( \[x\[, y\[, ...args]]] )
+#### maxabs( x, y )
 
 Returns the maximum absolute value.
 
@@ -70,9 +70,6 @@ var v = maxabs( -4.2, 3.14 );
 
 v = maxabs( +0.0, -0.0 );
 // returns +0.0
-
-v = maxabs( 4.2, 3.14, -1.0, 6.8 );
-// returns 6.8
 ```
 
 If any argument is `NaN`, the function returns `NaN`.
@@ -85,13 +82,6 @@ v = maxabs( NaN, 3.14 );
 // returns NaN
 ```
 
-If not provided any arguments, the function returns `+infinity`.
-
-```javascript
-var v = maxabs();
-// returns Infinity
-```
-
 </section>
 
 <!-- /.usage -->
@@ -99,10 +89,6 @@ var v = maxabs();
 <!-- Package usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="notes">
-
-## Notes
-
--   When an empty set is considered a subset of the extended reals (all real numbers, including positive and negative infinity), negative infinity is the least upper bound. Similar to zero being the identity element for the sum of an empty set and to one being the identity element for the product of an empty set, negative infinity is the identity element for the maximum, and thus, `maxabs() = +infinity` (i.e., the absolute value of negative infinity).
 
 </section>
 
