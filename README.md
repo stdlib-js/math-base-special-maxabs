@@ -34,41 +34,33 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-maxabs
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-maxabs = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabs@umd/browser.js' )
+var maxabs = require( '@stdlib/math-base-special-maxabs' );
 ```
 
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var maxabs = require( 'path/to/vendor/umd/math-base-special-maxabs/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabs@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.maxabs;
-})();
-</script>
-```
-
-#### maxabs( \[x\[, y\[, ...args]]] )
+#### maxabs( x, y )
 
 Returns the maximum absolute value.
 
@@ -78,9 +70,6 @@ var v = maxabs( -4.2, 3.14 );
 
 v = maxabs( +0.0, -0.0 );
 // returns +0.0
-
-v = maxabs( 4.2, 3.14, -1.0, 6.8 );
-// returns 6.8
 ```
 
 If any argument is `NaN`, the function returns `NaN`.
@@ -93,13 +82,6 @@ v = maxabs( NaN, 3.14 );
 // returns NaN
 ```
 
-If not provided any arguments, the function returns `+infinity`.
-
-```javascript
-var v = maxabs();
-// returns Infinity
-```
-
 </section>
 
 <!-- /.usage -->
@@ -107,10 +89,6 @@ var v = maxabs();
 <!-- Package usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="notes">
-
-## Notes
-
--   When an empty set is considered a subset of the extended reals (all real numbers, including positive and negative infinity), negative infinity is the least upper bound. Similar to zero being the identity element for the sum of an empty set and to one being the identity element for the product of an empty set, negative infinity is the identity element for the maximum, and thus, `maxabs() = +infinity` (i.e., the absolute value of negative infinity).
 
 </section>
 
@@ -124,14 +102,9 @@ var v = maxabs();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabs@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var maxabs = require( '@stdlib/math-base-special-maxabs' );
 
 var x;
 var y;
@@ -144,11 +117,6 @@ for ( i = 0; i < 100; i++ ) {
     v = maxabs( x, y );
     console.log( 'maxabs(%d,%d) = %d', x, y, v );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -249,9 +217,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/max]: https://github.com/stdlib-js/math-base-special-max/tree/umd
+[@stdlib/math/base/special/max]: https://github.com/stdlib-js/math-base-special-max
 
-[@stdlib/math/base/special/minabs]: https://github.com/stdlib-js/math-base-special-minabs/tree/umd
+[@stdlib/math/base/special/minabs]: https://github.com/stdlib-js/math-base-special-minabs
 
 <!-- </related-links> -->
 
