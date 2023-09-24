@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import maxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabs@deno/mod.js';
+import maxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabs@v0.1.0-deno/mod.js';
 ```
 
 #### maxabs( x, y )
@@ -99,7 +99,7 @@ v = maxabs( NaN, 3.14 );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import maxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabs@deno/mod.js';
+import maxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabs@v0.1.0-deno/mod.js';
 
 var x;
 var y;
