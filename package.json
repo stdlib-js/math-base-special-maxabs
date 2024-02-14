@@ -38,7 +38,8 @@
   },
   "dependencies": {
     "@stdlib/math-base-special-abs": "^0.2.0",
-    "@stdlib/math-base-special-max": "^0.2.0"
+    "@stdlib/math-base-special-max": "^0.2.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.0"
   },
   "devDependencies": {
     "@stdlib/constants-float64-pinf": "^0.1.1",
