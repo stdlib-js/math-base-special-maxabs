@@ -2,9 +2,41 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2024-08-01)
+## 0.3.0 (2024-07-28)
+
+<section class="features">
+
+### Features
+
+-   [`fa68dfe`](https://github.com/stdlib-js/stdlib/commit/fa68dfe9a77bae534851850921a5374a9b2860e2) - add C implementation for `math/base/special/maxabs`
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`e25fbc3`](https://github.com/stdlib-js/stdlib/commit/e25fbc33d4fb30525fa277c65758083ce16924ba) - resolve failing addon build in `math/base/special/maxabs` [(#1826)](https://github.com/stdlib-js/stdlib/pull/1826)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#stdlib-js/todo#2113](https://github.com/stdlib-js/stdlib/issues/stdlib-js/todo#2113)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,7 +44,11 @@
 
 <details>
 
--   [`22c4d29`](https://github.com/stdlib-js/stdlib/commit/22c4d29898e2b5bb4cb071a6b7f62536027eaf28) - **docs:** remove blank line _(by Athan Reines)_
+-   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
+-   [`e247f31`](https://github.com/stdlib-js/stdlib/commit/e247f3177902ef222b387d21d99c1ed0de5a4ccb) - **docs:** fix function names in C example code _(by Philipp Burckhardt)_
+-   [`dc20da0`](https://github.com/stdlib-js/stdlib/commit/dc20da0604fe2798e20e757277072fefc876da3c) - **chore:** update package meta data [(#1856)](https://github.com/stdlib-js/stdlib/pull/1856) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`e25fbc3`](https://github.com/stdlib-js/stdlib/commit/e25fbc33d4fb30525fa277c65758083ce16924ba) - **fix:** resolve failing addon build in `math/base/special/maxabs` [(#1826)](https://github.com/stdlib-js/stdlib/pull/1826) _(by Pranav Goswami)_
+-   [`fa68dfe`](https://github.com/stdlib-js/stdlib/commit/fa68dfe9a77bae534851850921a5374a9b2860e2) - **feat:** add C implementation for `math/base/special/maxabs` _(by Shashank Shekhar Singh, Pranav)_
 
 </details>
 
@@ -24,23 +60,17 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Philipp Burckhardt
+-   Pranav
+-   Pranav Goswami
+-   Shashank Shekhar Singh
 
 </section>
 
 <!-- /.contributors -->
-
-</section>
-
-<!-- /.release -->
-
-<section class="release" id="v0.3.0">
-
-## 0.3.0 (2024-07-28)
-
-No changes reported for this release.
 
 </section>
 
@@ -70,7 +100,54 @@ No changes reported for this release.
 
 ## 0.1.0 (2023-09-24)
 
-No changes reported for this release.
+<section class="features">
+
+### Features
+
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1 
+
+    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
+
+</section>
+
+<!-- /.breaking-changes -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - **feat:** update minimum TypeScript version _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
