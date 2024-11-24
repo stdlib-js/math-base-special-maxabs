@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-01)
+## Unreleased (2024-11-24)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`cdaf16f`](https://github.com/stdlib-js/stdlib/commit/cdaf16f9f3c05f153fcffbb00dab12412196cce6) - **chore:** update to modern benchmark Makefile _(by Philipp Burckhardt)_
 -   [`0ab9fc7`](https://github.com/stdlib-js/stdlib/commit/0ab9fc7de86012c670189711b6c6627b41119537) - **test:** add and modify tests [(#2830)](https://github.com/stdlib-js/stdlib/pull/2830) _(by Gunj Joshi)_
 
 </details>
@@ -24,9 +25,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Gunj Joshi
+-   Philipp Burckhardt
 
 </section>
 
