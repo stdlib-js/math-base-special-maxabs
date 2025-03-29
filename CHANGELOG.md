@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-27)
+## Unreleased (2025-03-29)
 
 <section class="reverts">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`07b51a4`](https://github.com/stdlib-js/stdlib/commit/07b51a4996fa515e6a2595413027b1fa670f7503) - **bench:** update random value generation [(#6378)](https://github.com/stdlib-js/stdlib/pull/6378) _(by Harsh, Philipp Burckhardt)_
 -   [`8839ab9`](https://github.com/stdlib-js/stdlib/commit/8839ab90e8b42266b86fbcec4954bb78edce656b) - **style:** disable lint rule [(#6404)](https://github.com/stdlib-js/stdlib/pull/6404) _(by SAHIL KUMAR)_
 -   [`ff25e13`](https://github.com/stdlib-js/stdlib/commit/ff25e1324e1507cc076078e82badce7fdf7915f6) - **docs:** remove excess whitespace _(by Philipp Burckhardt)_
 -   [`b0e68c5`](https://github.com/stdlib-js/stdlib/commit/b0e68c5bc8ee985794eb2ea1791c9337cd15fbd0) - **chore:** update to modern benchmark Makefile _(by Philipp Burckhardt)_
@@ -51,9 +52,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Gunj Joshi
+-   Harsh
 -   Philipp Burckhardt
 -   SAHIL KUMAR
 
