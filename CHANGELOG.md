@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-29)
+## Unreleased (2025-04-01)
 
 <section class="reverts">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`bb378ff`](https://github.com/stdlib-js/stdlib/commit/bb378ffa3c07f4acce9504440d26db9d2d97e091) - **docs:** replace manual `for` loop in examples [(#6472)](https://github.com/stdlib-js/stdlib/pull/6472) _(by Harsh)_
 -   [`07b51a4`](https://github.com/stdlib-js/stdlib/commit/07b51a4996fa515e6a2595413027b1fa670f7503) - **bench:** update random value generation [(#6378)](https://github.com/stdlib-js/stdlib/pull/6378) _(by Harsh, Philipp Burckhardt)_
 -   [`8839ab9`](https://github.com/stdlib-js/stdlib/commit/8839ab90e8b42266b86fbcec4954bb78edce656b) - **style:** disable lint rule [(#6404)](https://github.com/stdlib-js/stdlib/pull/6404) _(by SAHIL KUMAR)_
 -   [`ff25e13`](https://github.com/stdlib-js/stdlib/commit/ff25e1324e1507cc076078e82badce7fdf7915f6) - **docs:** remove excess whitespace _(by Philipp Burckhardt)_
