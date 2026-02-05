@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import maxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabs@esm/index.mjs';
+import maxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabs@v0.3.1-esm/index.mjs';
 ```
 
 #### maxabs( x, y )
@@ -105,7 +105,7 @@ v = maxabs( NaN, 3.14 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import maxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabs@esm/index.mjs';
+import maxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabs@v0.3.1-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
